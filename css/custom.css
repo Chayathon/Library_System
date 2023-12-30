@@ -1,0 +1,120 @@
+.card
+{
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card-footer
+{
+    border-top: 0px;
+}
+
+.card:hover
+{
+    transform: translateY(-2px);
+    box-shadow: 0rem .5rem 1.5rem rgba(0, 0, 0, 0.5)!important;
+    transition: .5s;
+}
+
+.modal-dialog
+{
+    max-width: 1000px;
+}
+
+.modal-content
+{
+    border-radius: 1rem;
+}
+
+.rounded
+{
+    border-radius: 1rem!important;
+}
+
+.dropdown-menu
+{
+    border-radius: 1rem;
+}
+
+.form-control
+{
+    border-radius: .5rem;
+}
+
+.form-select
+{
+    border-radius: .5rem;
+}
+
+.btn
+{
+    border-radius: .5rem;
+    transition: .25s;
+}
+
+.btn-primary:hover
+{
+    transform: translateY(-1px);
+    box-shadow: 0 0 .25rem #0d6efd, -.125rem -.125rem 1rem #0d6dfd7e;
+    transition: .25s;
+}
+
+.btn-info:hover
+{
+    transform: translateY(-1px);
+    box-shadow: 0 0 .25rem #0dcaf0, -.125rem -.125rem 1rem #0dcaf080;
+    transition: .25s;
+}
+
+.btn-success:hover
+{
+    transform: translateY(-1px);
+    box-shadow: 0 0 .25rem #198754, -.125rem -.125rem 1rem #1987547c;
+    transition: .25s;
+}
+
+.btn-link:hover
+{
+    background-color: rgba(201, 201, 201, 0.5);
+}
+
+.btn.disabled, .btn:disabled, fieldset:disabled .btn
+{
+    cursor: not-allowed;
+    pointer-events: unset;
+    opacity: 1;
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+img
+{
+    transition: .5s;
+}
+
+img#hover:hover
+{
+    height: 18px;
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid
+{
+    background-image: url();
+}
+
+.form-control.is-valid, .was-validated .form-control:valid
+{
+    background-image: url();
+}
+
+.form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"], .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"]
+{
+    background-image: url();
+}
+
+.form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"], .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"]
+{
+    background-image: url();
+}
